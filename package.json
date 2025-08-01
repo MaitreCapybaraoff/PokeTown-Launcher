@@ -1,20 +1,20 @@
 {
-    "name": "Draco-Launcher",
-    "productName": "Draco Launcher",
-    "version": "1.0.1",
-    "description": "Launcher Mincraft pour le serveur Draco SMP",
+    "name": "Aurore-de-Kalesia-Launcher",
+    "productName": "Aurore-de-Kalesia-Launcher",
+    "version": "1.0.0",
+    "description": "Launcher Mincraft pour l'Aurore-de-Kalesia",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, DracoMC, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.novamc.fr",
+    "url": "http://launcherun.novamc.fr",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=http://www.image-heberg.fr/files/17540387092024101321.jpg"
+        "icon": "node build.js --icon=https://cdn.discordapp.com/icons/1371530542461222962/b2caa443679e415637fc9276ae74fc9b.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MaitreCapybaraoff/Draco-Launcher.git"
+        "url": "git+https://github.com/MaitreCapybaraoff/PokeTown-Launcher.git"
     }
 }
